@@ -377,7 +377,7 @@ export default function App() {
           </div>
         )}
 
-        <footer className="mt-10 text-xs opacity-70">Built with React, Tailwind, lucide‑react, framer‑motion, Recharts, and an unreasonable amount of whimsy.</footer>
+        <footer className="mt-10 text-xs opacity-70">Built with an unreasonable amount of whimsy.</footer>
       </div>
     </div>
   );
