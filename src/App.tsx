@@ -337,27 +337,7 @@ export default function App() {
           </AnimatePresence>
         </div>
 
-{import.meta.env.DEV && (
-  <div className="mt-8">
-    <Card>
-      <CardHeader>
-        <CardTitle className="text-sm">Dev • Unit Tests</CardTitle>
-        <CardDescription className="opacity-80">
-          These run on load and don’t block the app.
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <ul className="text-xs grid gap-1">
-          {testResults.map((t, i) => (
-            <li key={i} className={t.pass ? "text-emerald-400" : "text-rose-400"}>
-              {t.pass ? "✔" : "✖"} {t.name}{t.details ? ` — ${t.details}` : ""}
-            </li>
-          ))}
-        </ul>
-      </CardContent>
-    </Card>
-  </div>
-)}
+
 
         {stage === "final" && (
           <div className="mt-8">
